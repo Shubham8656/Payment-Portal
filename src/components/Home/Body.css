@@ -1,0 +1,51 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 254, 254);
+    padding: 10px;
+}
+#purpose,#amount{
+    display: flex;
+    justify-content:flex-start;
+}
+#purpose-input,#amount-input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+button{
+    background-color: rgb(11, 216, 55);
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+button:hover{
+    background-color:  rgb(8, 189, 48);;
+}
+#min-cond{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    color: red;
+
+}
+#rupee{
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 40px;
+    background-color: grey;
+}
+#inlines{
+    display: flex;
+    /* height: 20px; */
+    align-items: center
+}

@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(233, 154, 6); */
+  width: 310px;
+  /* border: 1px solid grey; */
+  /* justify-content: center; */
+  margin: auto ;
+  /* height: 400px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  /* width: 100%; */
+}
+body{
+  /* display: flex; */
+  background-color: rgb(238, 243, 230);
+
+}

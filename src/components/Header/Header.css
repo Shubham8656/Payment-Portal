@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(117, 108, 119);
+    height: 80px;
+    color: white;
+    /* font-size: 150%; */
+    /* padding: 5px; */
+    /* margin-bottom: 5px; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.payment-header{
+   display: flex;
+   /* background-color: rgb(2, 2, 2);  */
+   justify-self: center;
+   align-items: center;
+}
+img{
+    width: 50px;
+    padding: 15px 20px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#first-line,#second-line{
+    display: flex;
+    font-size: 17px;
+    margin: 3px;
+    justify-content: flex-start;
+}
